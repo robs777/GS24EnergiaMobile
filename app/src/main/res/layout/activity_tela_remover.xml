@@ -49,8 +49,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
             android:ems="10"
-            android:inputType="text"
-            android:text="Nome Aparelho" />
+            android:hint="Nome Aparelho"
+            android:inputType="text" />
 
 
 

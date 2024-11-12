@@ -49,8 +49,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:ems="10"
-            android:inputType="text"
-            android:text="Nome Aparelho" />
+            android:hint="Nome Aparelho"
+            android:inputType="text" />
 
         <EditText
             android:id="@+id/editTempoUso"
@@ -59,8 +59,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="100dp"
             android:ems="10"
-            android:inputType="text"
-            android:text="Tempo de uso" />
+            android:hint="Tempo de uso"
+            android:inputType="text" />
 
         <ImageView
             android:id="@+id/imgEditar"
