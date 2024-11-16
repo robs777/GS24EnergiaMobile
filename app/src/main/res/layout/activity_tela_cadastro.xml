@@ -5,8 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#14CEB9"
-    android:backgroundTint="#14CEB9"
+    android:background="#EFEAEA"
+    android:backgroundTint="#EFEAEA"
     tools:context=".TelaCadastro">
 
 

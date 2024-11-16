@@ -5,6 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EFEAEA"
+    android:backgroundTint="#EFEAEA"
     tools:context=".TelaRemover">
 
 
@@ -53,7 +55,6 @@
             android:inputType="text" />
 
 
-
         <ImageView
             android:id="@+id/imgRemover"
             android:layout_width="60dp"
@@ -70,6 +71,7 @@
         android:layout_marginTop="35dp"
         android:text="Remover Aparelho"
         android:textSize="24sp"
+        android:fontFamily="sans-serif-medium"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

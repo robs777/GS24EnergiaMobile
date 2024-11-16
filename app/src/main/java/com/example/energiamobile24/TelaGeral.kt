@@ -27,6 +27,10 @@ class TelaGeral : AppCompatActivity() {
     lateinit var imgIrTelaVisualizar: ImageView
     lateinit var txtIrTelaVisualizar: TextView
 
+    // Recomendacao
+    lateinit var imgIrTelaRecomendacao: ImageView
+    lateinit var txtIrTelaRecomendacao: TextView
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -90,6 +94,21 @@ class TelaGeral : AppCompatActivity() {
         txtIrTelaVisualizar.setOnClickListener {
             val navegarTelaVisualizar = Intent(this, TelaVisualizar::class.java)
             startActivity(navegarTelaVisualizar)
+
+
+        }
+
+        // RECOMENDACAO
+        imgIrTelaRecomendacao = findViewById(R.id.imgIrTelaRecomendacao)
+        imgIrTelaRecomendacao.setOnClickListener {
+            val navegarTelaRecomendacao = Intent(this, TelaRecomendacao::class.java)
+            startActivity(navegarTelaRecomendacao)
+        }
+
+        txtIrTelaRecomendacao = findViewById(R.id.txtIrTelaRecomendacao)
+        txtIrTelaRecomendacao.setOnClickListener {
+            val navegarTelaRecomendacao = Intent(this, TelaRecomendacao::class.java)
+            startActivity(navegarTelaRecomendacao)
 
 
         }

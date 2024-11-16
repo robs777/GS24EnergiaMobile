@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EFEAEA"
     tools:context=".TelaEditar">
 
 
@@ -35,10 +36,10 @@
     <androidx.cardview.widget.CardView
         android:layout_width="300dp"
         android:layout_height="250dp"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="100dp"
         app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView">
 
@@ -78,6 +79,7 @@
         android:layout_marginTop="35dp"
         android:text="Editar Informações"
         android:textSize="24sp"
+        android:fontFamily="sans-serif-medium"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
